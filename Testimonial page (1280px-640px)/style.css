@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  width: 1280px;
+  width: 1420px;
   height: 512px;
   margin-top: 165px;
   margin-left: 50px;
@@ -17,6 +17,7 @@ body {
   width: 550px;
   height: 500px;
   margin-bottom: 50px;
+  flex-basis: 50%;
 }
 
 .top {
@@ -61,9 +62,10 @@ body {
 
 .container {
   height: 452px;
-  width: 580px;
+  width: 880px;
   position: relative;
-  margin-left: 58px;
+  margin-left: 10%;
+  flex-basis: 50%;
 }
 
 .head {
@@ -77,7 +79,7 @@ body {
   border-radius: 10px;
   padding: 28px 40px 28px 40px;
   position: absolute;
-  right: 0px;
+  right: 45px;
 }
 
 .reviewM {
