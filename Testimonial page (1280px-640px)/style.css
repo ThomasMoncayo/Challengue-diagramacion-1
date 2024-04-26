@@ -1,170 +1,167 @@
-html{
-    height: 842px;
-    width: 1380px;
+html {
+  height: 842px;
+  width: 1380px;
 }
 
-
-body{
-    width: 1280px;
-    height: 512px;
-    margin-top: 165px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 165px;
-    display: flex;
+body {
+  width: 1280px;
+  height: 512px;
+  margin-top: 165px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 165px;
+  display: flex;
 }
 
-.main{
-    width: 550px;
-    height: 500px;
-    margin-bottom: 50px;
+.main {
+  width: 550px;
+  height: 500px;
+  margin-bottom: 50px;
 }
 
-.top{
-    background-color: #F5C044;
-    border-radius: 25px ;
-    width: 45px;
-    height: 45px;
-    margin-bottom: 16px;
-    align-content: center;
-    text-align: center;
+.top {
+  background-color: #f5c044;
+  border-radius: 25px;
+  width: 45px;
+  height: 45px;
+  margin-bottom: 16px;
+  align-content: center;
+  text-align: center;
 }
 
-.title{
-    margin-top: 0px;
+.title {
+  margin-top: 0px;
+  margin-bottom: 12px;
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-size: 2.25rem;
+}
+
+.text {
+  margin-top: 0px;
+  margin-bottom: 32px;
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-size: 1.25rem;
+  line-height: 40px;
+  width: 560px;
+}
+
+.check {
+  list-style-image: url(Done_ring_round_fill.svg);
+  margin: 0px;
+  li {
     margin-bottom: 12px;
     font-family: "Sora", sans-serif;
     font-style: normal;
-    font-size: 2.25rem;
+    font-size: 0.875rem;
+    padding-left: 8px;
+  }
 }
 
-.text{
-    margin-top: 0px;
-    margin-bottom: 32px;
-    font-family: "Sora", sans-serif;
-    font-style: normal;
-    font-size: 1.25rem;
-    line-height: 40px;
-    width: 560px;
+.container {
+  height: 452px;
+  width: 580px;
+  position: relative;
+  margin-left: 58px;
 }
 
-.check{
-    list-style-image: url(Done_ring_round_fill.svg);
-    margin: 0px;
-    li{
-        margin-bottom: 12px;
-        font-family: "Sora", sans-serif;
-        font-style: normal;
-        font-size: 0.875rem;
-        padding-left: 8px;
-    }
+.head {
+  display: flex;
 }
 
-.container{
-    height: 452px;
-    width: 580px;
-    position: relative;
-    margin-left: 58px;
+.reviewG {
+  box-sizing: border-box;
+  width: 373px;
+  height: 200px;
+  border-radius: 10px;
+  padding: 28px 40px 28px 40px;
+  position: absolute;
+  right: 0px;
 }
 
-.head{
-    display: flex;   
+.reviewM {
+  box-sizing: border-box;
+  width: 373px;
+  height: 200px;
+  border-radius: 10px;
+  padding: 28px 40px 28px 40px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
 }
 
-.reviewG{
-    box-sizing: border-box;
-    width: 373px;
-    height: 200px;
-    border-radius: 10px;
-    padding: 28px 40px 28px 40px;
-    position: absolute;
-    right: 0px;
+.meta,
+.google {
+  height: 35px;
+  margin-right: 20px;
 }
 
-.reviewM{
-    box-sizing: border-box;
-    width: 373px;
-    height: 200px;
-    border-radius: 10px;
-    padding: 28px 40px 28px 40px;
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
+.stars {
+  list-style-type: none;
+  display: flex;
+  height: 24px;
+  margin: 5px 0px 0px 0px;
+  padding: 0px;
+  li {
+    margin-right: 4px;
+  }
 }
 
-.meta, .google{
-    height: 35px;
-    margin-right: 20px;
+.name {
+  width: 120px;
+  height: 20px;
+  text-align: left;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
-.stars{
-    list-style-type: none;
-    display: flex;
-    height: 24px;
-    margin: 5px 0px 0px 0px;
-    padding: 0px;
-    li{
-        margin-right: 4px;
-    }
-}
-
-.name{
-    width: 120px;
-    height: 20px;
-    text-align: left;
-    margin-top: 16px;
-    margin-bottom: 8px;
-    font-family: "Sora", sans-serif;
-    font-style: normal;
-    font-size: 1rem;
-    font-weight: bold;
-}    
-
-.ReviewText{
-    font-family: "Sora", sans-serif;
-    font-style: normal;
-    font-size: 1rem;
-    margin: 0px;
-    line-height: 35px;
+.ReviewText {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-size: 1rem;
+  margin: 0px;
+  line-height: 35px;
 }
 
 @media screen and (max-width: 640px) {
-    
-    html{
-        width: 640px;
-    }
+  html {
+    width: 640px;
+  }
 
-    body{
-        width: 600px;
-        height: 100%;
-        margin-top: 80px;
-        margin-left: 30px;
-        margin-right: 0px;
-        margin-bottom: 0px;
-        display: grid;
-    }
+  body {
+    width: 600px;
+    height: 100%;
+    margin-top: 80px;
+    margin-left: 30px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    display: grid;
+  }
 
-    .main{
-        width: 550px;
-        height: 450px;
-        margin-bottom: 90px;
-    }
+  .main {
+    width: 550px;
+    height: 450px;
+    margin-bottom: 90px;
+  }
 
-    .text{
-        width: 550px;
-    }
-    .check{
-        padding: 0px 0px 0px 30px ;
-    }
-    .reviewG, .reviewM{
-        padding: 10px;
-        width: 300px;
-    }
-    .container{
-        width: 560px;
-        margin: 0px;
-    }
-
-
-
+  .text {
+    width: 550px;
+  }
+  .check {
+    padding: 0px 0px 0px 30px;
+  }
+  .reviewG,
+  .reviewM {
+    padding: 10px;
+    width: 300px;
+  }
+  .container {
+    width: 560px;
+    margin: 0px;
+  }
 }
